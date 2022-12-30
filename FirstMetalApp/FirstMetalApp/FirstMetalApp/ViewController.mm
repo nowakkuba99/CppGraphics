@@ -6,13 +6,24 @@
 //
 
 #import "ViewController.h"
+#import "RendererAdapter.h"
 
 @implementation ViewController
+{
+    MTKView* view;
+    
+    RendererAdapter* p_RendererAdapter;
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    view = (MTKView*)self.view;
+    view.device = MTLCreateSystemDefaultDevice();
+    p_RendererAdapter = [RendererAdapter alloc];
+    [p_RendererAdapter draw:view.currentDrawable device:view.device];
 }
 
 
