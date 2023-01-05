@@ -34,3 +34,4 @@ Barrel/.vscode/settings.json
 Barrel/Barrel.xcodeproj/project.xcworkspace/xcuserdata/jakubnowak.xcuserdatad/UserInterfaceState.xcuserstate
 Barrel/Barrel.xcodeproj/xcuserdata/jakubnowak.xcuserdatad/xcschemes/xcschememanagement.plist
 Barrel/build/
+build/
