@@ -1,0 +1,75 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "9c99322c89242c22b5ad080a0fea0395cde5d82a21f463bb4edbbac0611c095d"
+    },
+    {
+      "guid" : "9c99322c89242c22b5ad080a0fea0395c0f1780d70974d7549d98a191e6439d4"
+    },
+    {
+      "guid" : "9c99322c89242c22b5ad080a0fea0395f3cb44f78c4b9e95eed04b4be5e25005"
+    },
+    {
+      "guid" : "d95e20d13b8da8a947b3e34b9e029e3681e37f1310af1191b957929abd079c0a"
+    },
+    {
+      "guid" : "d95e20d13b8da8a947b3e34b9e029e36408861be5e389e5540a9b447f100f3d7"
+    },
+    {
+      "guid" : "7d469fb4414a3f6818ad002dd9aef369880ba9f14ad5c3f0bdd24ace538dd384"
+    }
+  ],
+  "containerPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/Barrel.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build",
+      "indexDataStoreFolderPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

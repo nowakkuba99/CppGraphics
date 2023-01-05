@@ -17,6 +17,7 @@
 		536A52C4295EF7AA005B6745 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536A52C3295EF7AA005B6745 /* QuartzCore.framework */; };
 		536A52C7295EF7D9005B6745 /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 536A52C5295EF7D9005B6745 /* Renderer.cpp */; };
 		536A52C9295EFAB4005B6745 /* RendererAdapter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 536A52C8295EFAB4005B6745 /* RendererAdapter.mm */; };
+		53C9433829605E92002353A6 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 53C9433729605E92002353A6 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		536A52C6295EF7D9005B6745 /* Renderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Renderer.hpp; sourceTree = "<group>"; };
 		536A52C8295EFAB4005B6745 /* RendererAdapter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RendererAdapter.mm; sourceTree = "<group>"; };
 		536A52CA295EFACA005B6745 /* RendererAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RendererAdapter.h; sourceTree = "<group>"; };
+		53C9433729605E92002353A6 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				536A52C6295EF7D9005B6745 /* Renderer.hpp */,
 				536A52C8295EFAB4005B6745 /* RendererAdapter.mm */,
 				536A52CA295EFACA005B6745 /* RendererAdapter.h */,
+				53C9433729605E92002353A6 /* Shaders.metal */,
 			);
 			path = FirstMetalApp;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C9433829605E92002353A6 /* Shaders.metal in Sources */,
 				536A52C7295EF7D9005B6745 /* Renderer.cpp in Sources */,
 				536A52B0295EF627005B6745 /* ViewController.mm in Sources */,
 				536A52B7295EF627005B6745 /* main.m in Sources */,

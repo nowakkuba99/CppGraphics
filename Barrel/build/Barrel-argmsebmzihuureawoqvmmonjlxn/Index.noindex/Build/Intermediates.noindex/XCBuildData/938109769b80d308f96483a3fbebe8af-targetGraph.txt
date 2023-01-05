@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+glad in Barrel, no dependencies
+Barrel in Barrel, depends on:
+glad in Barrel (implicit dependency via file 'libglad.a' in build phase 'Link Binary')

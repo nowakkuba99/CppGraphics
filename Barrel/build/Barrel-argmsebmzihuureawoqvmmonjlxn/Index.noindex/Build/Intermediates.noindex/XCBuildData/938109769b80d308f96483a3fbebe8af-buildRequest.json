@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "9c99322c89242c22b5ad080a0fea0395cde5d82a21f463bb4edbbac0611c095d"
+    }
+  ],
+  "containerPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/Barrel.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build",
+      "indexDataStoreFolderPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/jakubnowak/Documents/c/metalRepo/Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

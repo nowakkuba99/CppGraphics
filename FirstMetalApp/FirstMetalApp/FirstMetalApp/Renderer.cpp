@@ -12,13 +12,19 @@
 
 #include "Renderer.hpp"
 #include <iostream>
+#include <vector>
 
 namespace Barrel
 {
 // Constructor
 Renderer::Renderer(CA::MetalDrawable* const pDrawable, MTL::Device* const pDevice)
-:p_Drawable(pDrawable), p_Device(pDevice), p_CommandQueue(p_Device->newCommandQueue())
-{}
+                :p_Drawable(pDrawable),
+                p_Device(pDevice),
+                p_CommandQueue(p_Device->newCommandQueue()),
+                p_RenderPipelineState(nullptr,[](MTL::RenderPipelineState* const pipeline){ pipeline->release();})
+                {
+                    buildShaders();
+                }
 
 // Destructor
 Renderer::~Renderer()
@@ -29,22 +35,75 @@ Renderer::~Renderer()
 // Custom functions
 void Renderer::draw() const
 {
-    std::cout<< " I'm so tired of this\n";
-    
-    // Render somthing by sending commands to GPU
+    /* Render somthing by sending commands to GPU */
     MTL::CommandBuffer* pCmdBuf = p_CommandQueue->commandBuffer();  //Extract command buffer from member command queue variable
     
-    MTL::RenderPassDescriptor* pRpd = MTL::RenderPassDescriptor::alloc()->init();
+    MTL::RenderPassDescriptor* pRpd = MTL::RenderPassDescriptor::alloc()->init();   //Create and initialize RenderPassDescriptor
     pRpd->colorAttachments()->object(0)->setTexture(p_Drawable->texture());
     pRpd->colorAttachments()->object(0)->setLoadAction(MTL::LoadActionClear);
-    pRpd->colorAttachments()->object(0)->setClearColor(MTL::ClearColor::Make(0.0, 0.5, 0.5, 1.0));
+    pRpd->colorAttachments()->object(0)->setClearColor(MTL::ClearColor::Make(0.0, 0.5, 0.5, 1.0));  //Set color toteal
     
+    /* Create verticies array */
+    const std::vector<float> vertices   //Three points for triangle
+    {
+        -0.5f, 0.5f, .0f,
+        0.5f, 0.5f, .0f,
+        .0f, -1.0f, .0f
+    };
+    
+    /* Create buffer and store in unique pointer with custom destructor */
+    const std::unique_ptr<MTL::Buffer, void(*)(MTL::Buffer* const)> pVertexBuffer(
+        p_Device->newBuffer(vertices.data(), sizeof(float)*9, MTL::ResourceStorageModeShared),
+        [](MTL::Buffer* const buff){
+        buff->release();
+        });
+    /* Create Renderer Enccoder */
     MTL::RenderCommandEncoder* pEnc = pCmdBuf->renderCommandEncoder(pRpd);
+    pEnc->setRenderPipelineState(p_RenderPipelineState.get());
+    pEnc->setVertexBuffer(pVertexBuffer.get(), 0, 5);   //Pass the vertex buffer
+    pEnc->drawPrimitives(MTL::PrimitiveTypeTriangle, NS::Integer(0), NS::Integer(3));   //Set rendering to Triangle from 3 points
     pEnc->endEncoding();
     pCmdBuf->presentDrawable(p_Drawable);
     pCmdBuf->commit();
     
     pRpd->release();
+}
+
+void Renderer::buildShaders()
+{
+    /* Initialize default library (Get all shaders code) */
+    const std::unique_ptr<MTL::Library, void(*)(MTL::Library* const)>
+        pLib(
+             p_Device->newDefaultLibrary(),
+             [](MTL::Library* const lib){ lib->release();}
+             );
+    /* Set shaders */
+    const std::unique_ptr<MTL::Function, void(*)(MTL::Function* const)>
+        pVertexShader(
+                      pLib.get()->newFunction(NS::String::string("vertexShader",NS::UTF8StringEncoding)),
+                      [](MTL::Function* const func){ func->release(); }
+                      );
+    const std::unique_ptr<MTL::Function, void(*)(MTL::Function* const)>
+        pFragmentShader(
+                        pLib.get()->newFunction(NS::String::string("fragmentShader",NS::UTF8StringEncoding)),
+                        [](MTL::Function* const func) {func->release(); }
+                        );
+    /* Pipeline descriptor */
+    const std::unique_ptr<MTL::RenderPipelineDescriptor, void(*)(MTL::RenderPipelineDescriptor* const)>
+        pRpd(
+             MTL::RenderPipelineDescriptor::alloc()->init(),
+             [](MTL::RenderPipelineDescriptor* const rpd) { rpd->release();}
+             );
+    pRpd.get()->setVertexFunction(pVertexShader.get());
+    pRpd.get()->setFragmentFunction(pFragmentShader.get());
+    pRpd.get()->colorAttachments()->object(0)->setPixelFormat(MTL::PixelFormatBGRA8Unorm);
+    
+    NS::Error* pErr {nullptr};
+    p_RenderPipelineState.reset(p_Device->newRenderPipelineState(pRpd.get(), &pErr));
+    if(!p_RenderPipelineState.get())    //If still nullptr
+    {
+        __builtin_printf("%s",pErr->localizedDescription()->utf8String());
+    }
 }
 
 

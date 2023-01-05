@@ -30,6 +30,10 @@ private:
     CA::MetalDrawable* p_Drawable;
     MTL::Device* const p_Device;
     MTL::CommandQueue* const p_CommandQueue;
+    std::unique_ptr<MTL::RenderPipelineState, void(*)(MTL::RenderPipelineState *)> p_RenderPipelineState;
+    
+    // Member functions
+    void buildShaders();
 };
 }
 #endif /* Renderer_hpp */

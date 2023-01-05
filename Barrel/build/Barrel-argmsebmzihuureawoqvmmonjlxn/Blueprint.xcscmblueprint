@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DD865B33DF19BC4F374461532F220C61DC3FEDE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5F9A509892B62625173926B00F2429B72F31D64A" : 0,
+    "DD865B33DF19BC4F374461532F220C61DC3FEDE2" : 0,
+    "9B76F7F7455EC6A07EA1AD0D4AAF24D2E732CD1B" : 0,
+    "9CF04AB0F111B949DD0692E7DE81D2749455A0ED" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E95DBEB2-7CAB-47A0-A9AC-BF3F15F0C643",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5F9A509892B62625173926B00F2429B72F31D64A" : "repo\/SDL\/",
+    "DD865B33DF19BC4F374461532F220C61DC3FEDE2" : "metalRepo\/",
+    "9B76F7F7455EC6A07EA1AD0D4AAF24D2E732CD1B" : "..\/..\/..\/..\/opt\/homebrew",
+    "9CF04AB0F111B949DD0692E7DE81D2749455A0ED" : "repo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Barrel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Barrel\/Barrel.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nowakkuba99\/SDL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F9A509892B62625173926B00F2429B72F31D64A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Homebrew\/brew",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9B76F7F7455EC6A07EA1AD0D4AAF24D2E732CD1B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nowakkuba99\/repo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9CF04AB0F111B949DD0692E7DE81D2749455A0ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nowakkuba99\/Metal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD865B33DF19BC4F374461532F220C61DC3FEDE2"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>9B3FD2CB-7320-475C-BD05-8AC093031CF0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9B3FD2CB-7320-475C-BD05-8AC093031CF0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Barrel project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BarrelSandbox</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BarrelSandbox</string>
+			<key>timeStartedRecording</key>
+			<real>694609380.86024296</real>
+			<key>timeStoppedRecording</key>
+			<real>694609380.91065097</real>
+			<key>title</key>
+			<string>Build BarrelSandbox</string>
+			<key>uniqueIdentifier</key>
+			<string>9B3FD2CB-7320-475C-BD05-8AC093031CF0</string>
+		</dict>
+		<key>D0E57539-EA49-4F3F-981B-E7E3CF99CEC8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D0E57539-EA49-4F3F-981B-E7E3CF99CEC8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Barrel project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BarrelSandbox</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BarrelSandbox</string>
+			<key>timeStartedRecording</key>
+			<real>694609450.04847002</real>
+			<key>timeStoppedRecording</key>
+			<real>694609450.09077299</real>
+			<key>title</key>
+			<string>Build BarrelSandbox</string>
+			<key>uniqueIdentifier</key>
+			<string>D0E57539-EA49-4F3F-981B-E7E3CF99CEC8</string>
+		</dict>
+		<key>FFBBE853-D7E1-4B12-862C-D438E621265B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FFBBE853-D7E1-4B12-862C-D438E621265B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Barrel project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BarrelSandbox</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BarrelSandbox</string>
+			<key>timeStartedRecording</key>
+			<real>694609436.83084202</real>
+			<key>timeStoppedRecording</key>
+			<real>694609436.97418594</real>
+			<key>title</key>
+			<string>Build BarrelSandbox</string>
+			<key>uniqueIdentifier</key>
+			<string>FFBBE853-D7E1-4B12-862C-D438E621265B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
