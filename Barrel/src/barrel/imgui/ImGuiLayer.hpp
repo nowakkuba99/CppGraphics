@@ -33,7 +33,7 @@ public:
 
     void SetDarkThemeColors() {};
 private:
-    // Private functions
+    // Private functions - temporary
     bool OnMouseButtonPressedEvent(MouseButtonPressedEvent& e);
     bool OnMouseButtonReleasedEvent(MouseButtonReleasedEvent& e);
     bool OnMouseMovedEvent(MouseMovedEvent& e);
