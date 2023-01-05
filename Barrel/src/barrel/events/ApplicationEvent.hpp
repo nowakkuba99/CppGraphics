@@ -18,7 +18,7 @@ namespace Barrel
             : m_Width(width), m_Height(height) {}
         // Custom functions
         unsigned int getWidth() const { return m_Width; }
-        unsigned int getHeigth() const { return m_Height; }
+        unsigned int getHeight() const { return m_Height; }
         // Override functions
         std::string ToString() const override
         {
