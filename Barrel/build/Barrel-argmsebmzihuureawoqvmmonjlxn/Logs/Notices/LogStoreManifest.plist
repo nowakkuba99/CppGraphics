@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>04007691-5954-4CAB-AD0C-F3802399C9C6</key>
+		<key>0A789E23-F476-4892-BFE9-6E6AF017AAFA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,35 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>04007691-5954-4CAB-AD0C-F3802399C9C6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTM2Njk5NUMyOTY1QjA3MTAwODA1NDJBIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609450.04847002</real>
-			<key>timeStoppedRecording</key>
-			<real>694609450.09077299</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>04007691-5954-4CAB-AD0C-F3802399C9C6</string>
-		</dict>
-		<key>085181FD-B0BF-4E50-9587-DF38DC3F5085</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>085181FD-B0BF-4E50-9587-DF38DC3F5085.xcactivitylog</string>
+			<string>0A789E23-F476-4892-BFE9-6E6AF017AAFA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,15 +26,15 @@
 			<key>signature</key>
 			<string>eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9</string>
 			<key>timeStartedRecording</key>
-			<real>694609380.86024296</real>
+			<real>694609450.04847002</real>
 			<key>timeStoppedRecording</key>
-			<real>694609380.91065097</real>
+			<real>694609450.09077299</real>
 			<key>title</key>
 			<string>Build BarrelSandbox</string>
 			<key>uniqueIdentifier</key>
-			<string>085181FD-B0BF-4E50-9587-DF38DC3F5085</string>
+			<string>0A789E23-F476-4892-BFE9-6E6AF017AAFA</string>
 		</dict>
-		<key>0AC0B1B4-B2C9-472C-895A-3BCEBA1DB54B</key>
+		<key>5CCB474C-AE58-4A54-A3B3-FEA61A7999B3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -71,91 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0AC0B1B4-B2C9-472C-895A-3BCEBA1DB54B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9qYWt1Ym5vd2FrXC9Eb2N1bWVudHNcL2NcL21ldGFsUmVwb1wvQmFycmVsXC9CYXJyZWwueGNvZGVwcm9qIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609436.83084202</real>
-			<key>timeStoppedRecording</key>
-			<real>63113904000</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>0AC0B1B4-B2C9-472C-895A-3BCEBA1DB54B</string>
-		</dict>
-		<key>0D7EE648-C635-4362-80DC-0A55C789CFA0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>0D7EE648-C635-4362-80DC-0A55C789CFA0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTNFRDhCODEyOTY2RTNDMjAwMEM1NjdDIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609436.83084202</real>
-			<key>timeStoppedRecording</key>
-			<real>694609436.97418594</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>0D7EE648-C635-4362-80DC-0A55C789CFA0</string>
-		</dict>
-		<key>1B4528F3-96BF-4017-BDA5-8B1F865D88F1</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>1B4528F3-96BF-4017-BDA5-8B1F865D88F1.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9qYWt1Ym5vd2FrXC9Eb2N1bWVudHNcL2NcL21ldGFsUmVwb1wvQmFycmVsXC9CYXJyZWwueGNvZGVwcm9qIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609380.86024296</real>
-			<key>timeStoppedRecording</key>
-			<real>694609380.91065097</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>1B4528F3-96BF-4017-BDA5-8B1F865D88F1</string>
-		</dict>
-		<key>2DD85993-34B9-47A6-B19D-9F0D2E886B9D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2DD85993-34B9-47A6-B19D-9F0D2E886B9D.xcactivitylog</string>
+			<string>5CCB474C-AE58-4A54-A3B3-FEA61A7999B3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -172,9 +60,9 @@
 			<key>title</key>
 			<string>Build BarrelSandbox</string>
 			<key>uniqueIdentifier</key>
-			<string>2DD85993-34B9-47A6-B19D-9F0D2E886B9D</string>
+			<string>5CCB474C-AE58-4A54-A3B3-FEA61A7999B3</string>
 		</dict>
-		<key>3FAEC52F-2996-402F-99BC-87DFBA83E750</key>
+		<key>B5DDBE6F-DC65-4F1C-B903-3C1844064069</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -183,231 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>3FAEC52F-2996-402F-99BC-87DFBA83E750.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTNFRDhCNzUyOTY2RTJGRDAwMEM1NjdDIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609436.83084202</real>
-			<key>timeStoppedRecording</key>
-			<real>694609436.97418594</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>3FAEC52F-2996-402F-99BC-87DFBA83E750</string>
-		</dict>
-		<key>4261000E-273C-4BBD-AE3B-1A56D80068B4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4261000E-273C-4BBD-AE3B-1A56D80068B4.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTM2Njk5NUMyOTY1QjA3MTAwODA1NDJBIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609380.86024296</real>
-			<key>timeStoppedRecording</key>
-			<real>694609380.91065097</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>4261000E-273C-4BBD-AE3B-1A56D80068B4</string>
-		</dict>
-		<key>4AC07AD1-CDCC-4A3B-8F64-7B040325027C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4AC07AD1-CDCC-4A3B-8F64-7B040325027C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9</string>
-			<key>timeStartedRecording</key>
-			<real>694609436.83084202</real>
-			<key>timeStoppedRecording</key>
-			<real>63113904000</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>4AC07AD1-CDCC-4A3B-8F64-7B040325027C</string>
-		</dict>
-		<key>57D27D72-C3E9-45A5-B21B-3283CB5F7E8B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>57D27D72-C3E9-45A5-B21B-3283CB5F7E8B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9</string>
-			<key>timeStartedRecording</key>
-			<real>694609450.04847002</real>
-			<key>timeStoppedRecording</key>
-			<real>694609450.09077299</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>57D27D72-C3E9-45A5-B21B-3283CB5F7E8B</string>
-		</dict>
-		<key>6A018537-7FA2-4B6D-BB5B-15C213EB50AD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6A018537-7FA2-4B6D-BB5B-15C213EB50AD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTM2Njk4NDgyOTY1QTFCODAwODA1NDJBIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609436.83084202</real>
-			<key>timeStoppedRecording</key>
-			<real>694609436.97418594</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>6A018537-7FA2-4B6D-BB5B-15C213EB50AD</string>
-		</dict>
-		<key>6AD573C0-6335-4A33-BFCA-1A12D6AF918E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6AD573C0-6335-4A33-BFCA-1A12D6AF918E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTM2Njk5NUMyOTY1QjA3MTAwODA1NDJBIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609380.86024296</real>
-			<key>timeStoppedRecording</key>
-			<real>694609380.91065097</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>6AD573C0-6335-4A33-BFCA-1A12D6AF918E</string>
-		</dict>
-		<key>77BCEB4E-69FD-4371-9D74-2D8C3C4E44A0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>77BCEB4E-69FD-4371-9D74-2D8C3C4E44A0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTM2Njk4NDgyOTY1QTFCODAwODA1NDJBIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609380.86024296</real>
-			<key>timeStoppedRecording</key>
-			<real>694609380.91065097</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>77BCEB4E-69FD-4371-9D74-2D8C3C4E44A0</string>
-		</dict>
-		<key>8B3EC101-52FC-4B7F-8DE9-8C5CC0D88A59</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8B3EC101-52FC-4B7F-8DE9-8C5CC0D88A59.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTNFRDhCNzUyOTY2RTJGRDAwMEM1NjdDIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609380.86024296</real>
-			<key>timeStoppedRecording</key>
-			<real>694609380.91065097</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>8B3EC101-52FC-4B7F-8DE9-8C5CC0D88A59</string>
-		</dict>
-		<key>943A07D8-954D-4BFB-AA5A-A60062C50F57</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>943A07D8-954D-4BFB-AA5A-A60062C50F57.xcactivitylog</string>
+			<string>B5DDBE6F-DC65-4F1C-B903-3C1844064069.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -424,9 +88,9 @@
 			<key>title</key>
 			<string>Build BarrelSandbox</string>
 			<key>uniqueIdentifier</key>
-			<string>943A07D8-954D-4BFB-AA5A-A60062C50F57</string>
+			<string>B5DDBE6F-DC65-4F1C-B903-3C1844064069</string>
 		</dict>
-		<key>B6388980-2038-41C3-958F-50AA40B116EC</key>
+		<key>BC154704-ADE4-4361-8DAD-EDD4AF434FD4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -435,7 +99,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B6388980-2038-41C3-958F-50AA40B116EC.xcactivitylog</string>
+			<string>BC154704-ADE4-4361-8DAD-EDD4AF434FD4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -452,9 +116,9 @@
 			<key>title</key>
 			<string>Build BarrelSandbox</string>
 			<key>uniqueIdentifier</key>
-			<string>B6388980-2038-41C3-958F-50AA40B116EC</string>
+			<string>BC154704-ADE4-4361-8DAD-EDD4AF434FD4</string>
 		</dict>
-		<key>DB6EE3E0-9514-445E-B165-4B4472B82702</key>
+		<key>C66CE69B-6FA1-44D0-A4BC-858487C782C2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -463,7 +127,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>DB6EE3E0-9514-445E-B165-4B4472B82702.xcactivitylog</string>
+			<string>C66CE69B-6FA1-44D0-A4BC-858487C782C2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -474,13 +138,41 @@
 			<key>signature</key>
 			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTM2Njk5NUMyOTY1QjA3MTAwODA1NDJBIn0=</string>
 			<key>timeStartedRecording</key>
-			<real>694609436.83084202</real>
+			<real>694609450.04847002</real>
 			<key>timeStoppedRecording</key>
-			<real>694609436.97418594</real>
+			<real>694609450.09077299</real>
 			<key>title</key>
 			<string>Build BarrelSandbox</string>
 			<key>uniqueIdentifier</key>
-			<string>DB6EE3E0-9514-445E-B165-4B4472B82702</string>
+			<string>C66CE69B-6FA1-44D0-A4BC-858487C782C2</string>
+		</dict>
+		<key>CE8D3CC4-1039-4984-A64B-7D4FD9A0056A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CE8D3CC4-1039-4984-A64B-7D4FD9A0056A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9qYWt1Ym5vd2FrXC9Eb2N1bWVudHNcL2NcL21ldGFsUmVwb1wvQmFycmVsXC9CYXJyZWwueGNvZGVwcm9qIn0=</string>
+			<key>timeStartedRecording</key>
+			<real>694609450.04847002</real>
+			<key>timeStoppedRecording</key>
+			<real>694609450.09077299</real>
+			<key>title</key>
+			<string>Build BarrelSandbox</string>
+			<key>uniqueIdentifier</key>
+			<string>CE8D3CC4-1039-4984-A64B-7D4FD9A0056A</string>
 		</dict>
 		<key>E508374D-624E-4088-9381-AADD7ACCC445</key>
 		<dict>
@@ -509,34 +201,6 @@
 			<string>Build BarrelSandbox</string>
 			<key>uniqueIdentifier</key>
 			<string>E508374D-624E-4088-9381-AADD7ACCC445</string>
-		</dict>
-		<key>F8C9CDAA-AFDC-4252-89A2-63954A442DE7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F8C9CDAA-AFDC-4252-89A2-63954A442DE7.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvamFrdWJub3dha1wvRG9jdW1lbnRzXC9jXC9tZXRhbFJlcG9cL0JhcnJlbFwvQmFycmVsLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiNTNFRDhCODEyOTY2RTNDMjAwMEM1NjdDIn0=</string>
-			<key>timeStartedRecording</key>
-			<real>694609380.86024296</real>
-			<key>timeStoppedRecording</key>
-			<real>694609380.91065097</real>
-			<key>title</key>
-			<string>Build BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>F8C9CDAA-AFDC-4252-89A2-63954A442DE7</string>
 		</dict>
 	</dict>
 </dict>

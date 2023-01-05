@@ -6,51 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>79F86660-07F9-4560-80F6-136633554D28</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>9B3FD2CB-7320-475C-BD05-8AC093031CF0</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-BarrelSandbox-2023.01.05_12-03-00-+0100.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Barrel project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>BarrelSandbox</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run BarrelSandbox</string>
-			<key>timeStartedRecording</key>
-			<real>694609380.86006403</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run BarrelSandbox</string>
-			<key>uniqueIdentifier</key>
-			<string>79F86660-07F9-4560-80F6-136633554D28</string>
-		</dict>
 		<key>9A593141-8F55-4B58-85DF-25CE59764B0D</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
