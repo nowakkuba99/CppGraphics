@@ -30,3 +30,34 @@
 *.exe
 *.out
 *.app
+Barrel/.vscode/settings.json
+Barrel/Barrel.xcodeproj/project.xcworkspace/xcuserdata/jakubnowak.xcuserdatad/UserInterfaceState.xcuserstate
+Barrel/Barrel.xcodeproj/xcuserdata/jakubnowak.xcuserdatad/xcschemes/xcschememanagement.plist
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/Build/Intermediates.noindex/XCBuildData/31f0040839eb7d4e29e3c8ae1a359358-buildRequest.json
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/UniDB/Barrel.xcindex/v13/p16346--74944d/data.mdb
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/UniDB/Barrel.xcindex/v13/p16346--74944d/lock.mdb
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/UniDB/Barrel.xcindex/v13/p16639--b3c52a/data.mdb
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Index.noindex/UniDB/Barrel.xcindex/v13/p16639--b3c52a/lock.mdb
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/0A789E23-F476-4892-BFE9-6E6AF017AAFA.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/0C70B6FC-E85F-4BA5-85E9-26A22ABA4CFA.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/7BDAA3C0-0705-489F-9548-3F672096EA7C.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/245B1463-6C94-4610-B21F-DE21E4E0C148.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/993A9DA2-AA67-4934-AB4E-F74B6197D570.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/AF097C31-34CC-49BA-93A9-A854EEECC437.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/B5DDBE6F-DC65-4F1C-B903-3C1844064069.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/BC154704-ADE4-4361-8DAD-EDD4AF434FD4.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/C66CE69B-6FA1-44D0-A4BC-858487C782C2.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/CE8D3CC4-1039-4984-A64B-7D4FD9A0056A.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/DCBC67C2-D86E-453C-83E9-16AF2D74E960.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/E508374D-624E-4088-9381-AADD7ACCC445.xcactivitylog
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/Logs/Notices/LogStoreManifest.plist
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/SymbolCache/metadata.plist
+Barrel/build/Barrel-argmsebmzihuureawoqvmmonjlxn/SymbolCache/project.plist
+Barrel/build/SymbolCache.noindex/MacOSX13.1.sdk (22C55)/usr-include/Darwin/main.plist
+Barrel/build/SymbolCache.noindex/MacOSX13.1.sdk (22C55)/usr-include/Darwin/metadata.plist
+Barrel/build/SymbolCache.noindex/MacOSX13.1.sdk (22C55)/usr-include/Darwin/swift-imported.plist
+Barrel/build/SymbolCache.noindex/MacOSX13.1.sdk (22C55)/usr-include/Darwin/swift-overlay.plist
+Barrel/build/SymbolCache.noindex/MacOSX13.1.sdk (22C55)/usr-include/XPC/main.plist
+Barrel/build/SymbolCache.noindex/MacOSX13.1.sdk (22C55)/usr-include/XPC/metadata.plist
+Barrel/build/SymbolCache.noindex/MacOSX13.1.sdk (22C55)/usr-include/XPC/swift-imported.plist
+Barrel/build/SymbolCache.noindex/MacOSX13.1.sdk (22C55)/usr-include/XPC/swift-overlay.plist
