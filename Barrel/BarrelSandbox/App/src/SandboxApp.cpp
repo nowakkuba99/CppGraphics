@@ -1,6 +1,7 @@
 // Include libraries
 #include <iostream>
 #include "Barrel.hpp"
+
 // Include user files
 
 /* Example Layer */
@@ -12,11 +13,18 @@ public:
     void OnUpdate() override
     {
         //BR_INFO("ExampleLayer::Update");
+        //if(Barrel::Input::IsKeyPressed(Barrel::Key::Tab))
+          //  BR_INFO("TAB Key pressed ...");
     }
 
     void OnEvent(Barrel::Event& event) override
     {
-        BR_TRACE("{0}",event);
+        //BR_TRACE("{0}",event);
+        if(event.GetEventType() == Barrel::EventType::KeyPressed)
+        {
+            Barrel::KeyPressedEvent casted = static_cast<Barrel::KeyPressedEvent&>(event);
+            BR_INFO("Key: {0} pressed ...",static_cast<char>(casted.GetKeyCode()));
+        }
     }
 };
 
@@ -30,7 +38,6 @@ class Sandbox : public Barrel::Application
         Sandbox()
         {
             PushLayer(new ExampleLayer{});
-            PushOverlay(new Barrel::ImGuiLayer{});
         };
         ~Sandbox()
         {

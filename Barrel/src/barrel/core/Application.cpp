@@ -2,7 +2,7 @@
 #include <iostream>
 // Includes
 #include "Application.hpp"
-
+#include "Input.hpp"
 // Application class implementation
 namespace Barrel
 {
@@ -18,6 +18,8 @@ Application* Application::s_Instance = nullptr;
         m_Window = std::unique_ptr<Window> (Window::Create());
         /* Set callback that will be called if ANY event occurs */
         m_Window->SetEventCallback(BIND_EVENT_FUNCTION(OnEvent));
+        m_ImGuiLayer = new ImGuiLayer();
+        PushOverlay(m_ImGuiLayer);
     }
 
     Application::~Application()
@@ -34,6 +36,12 @@ Application* Application::s_Instance = nullptr;
             {
                 layer->OnUpdate();
             }
+            m_ImGuiLayer->Begin();
+            for(auto layer: m_LayerStack)
+            {
+                layer->OnImGuiRender();
+            }
+            m_ImGuiLayer->End();
             // Call window onUpdate()
             m_Window->OnUpdate();
         }
@@ -56,7 +64,7 @@ Application* Application::s_Instance = nullptr;
         }
 
         // Trace all events occurences
-        BR_CORE_TRACE("{0}",event);
+        //BR_CORE_TRACE("{0}",event);
     }
     // Function being called when window close event occurs
     bool Application::OnWindowClose(WindowCloseEvent& event)

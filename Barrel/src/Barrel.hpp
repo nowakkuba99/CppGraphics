@@ -11,6 +11,10 @@
 #include "barrel/imgui/ImGuiLayer.hpp"
 /* ---- Entry point ---- */
 #include "barrel/EntryPoint.hpp"
+/* Input */
+#include "barrel/core/Input.hpp"
+#include "barrel/core/KeyCodes.h"
+#include "barrel/core/MouseCodes.h"
 /* --------------------- */
 
 

@@ -8,6 +8,7 @@
 #include "../events/Event.hpp"
 #include "../events/ApplicationEvent.hpp"
 #include "../layers/LayerStack.hpp"
+#include "../imgui/ImGuiLayer.hpp"
 // Application class
 namespace Barrel
 {
@@ -37,6 +38,7 @@ namespace Barrel
 
         // Member variables
         std::unique_ptr<Window> m_Window;
+        ImGuiLayer* m_ImGuiLayer;
         bool m_Running = true;
         LayerStack m_LayerStack;
 

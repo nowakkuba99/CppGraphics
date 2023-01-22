@@ -21,32 +21,20 @@ public:
 
     // Virtual functions
     virtual void OnAttach() override;
-    virtual void OnDetach() override {};
-    virtual void OnUpdate() override;
+    virtual void OnDetach() override;
     virtual void OnEvent(Event& event) override;
+    virtual void OnImGuiRender() override;
 
     // Other functions
-    void Begin() {};
-    void End() {};
+    void Begin();
+    void End();
 
     void BlockEvents(bool block) { m_BlockEvents = block; }
 
-    void SetDarkThemeColors() {};
-private:
-    // Private functions - temporary
-    bool OnMouseButtonPressedEvent(MouseButtonPressedEvent& e);
-    bool OnMouseButtonReleasedEvent(MouseButtonReleasedEvent& e);
-    bool OnMouseMovedEvent(MouseMovedEvent& e);
-    bool OnMouseScrolledEvent(MouseScrolledEvent& e);
-    bool OnKeyPressedEvent(KeyPressedEvent& e);
-    bool OnKeyReleasedEvent(KeyReleasedEvent& e);
-    bool OnKeyTypedEvent(KeyTypedEvent& e);
-    bool OnWindowResizeEvent(WindowResizeEvent& e);
-
+    void SetDarkThemeColors();
 private:
     // Member variables
     bool m_BlockEvents;
-    float m_Time = 0.0f;;
 };
 }
 

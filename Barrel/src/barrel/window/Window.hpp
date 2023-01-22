@@ -21,8 +21,8 @@ namespace Barrel
 
         // Constructor
         WindowProperties(const std::string& title = "Barrel Render Engine",
-            uint32_t width = 1600,
-            uint32_t height = 900)
+            uint32_t width = 900,
+            uint32_t height = 600)
             : Title(title), Width(width), Height(height) {}   
     };
     // Window abstract class - Interface for Mac window implementation
