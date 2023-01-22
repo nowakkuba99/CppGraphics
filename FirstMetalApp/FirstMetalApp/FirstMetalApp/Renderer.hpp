@@ -18,22 +18,25 @@ class Renderer
 {
 public:
     // Constructor
-    Renderer(CA::MetalDrawable* const pDrawable, MTL::Device* const pDevice);
+    Renderer( MTL::Device* const pDevice);
     // Destructor
     ~Renderer();
     
     // Custom functions
-    void draw() const;
+//    void draw() const;
+    void drawFrame(const CA::MetalDrawable* const pDrawable);
     
 private:
     // Member variables
-    CA::MetalDrawable* p_Drawable;
+//    CA::MetalDrawable* p_Drawable;
     MTL::Device* const p_Device;
     MTL::CommandQueue* const p_CommandQueue;
     std::unique_ptr<MTL::RenderPipelineState, void(*)(MTL::RenderPipelineState *)> p_RenderPipelineState;
+    float timer;
     
     // Member functions
     void buildShaders();
+    
 };
 }
 #endif /* Renderer_hpp */

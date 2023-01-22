@@ -10,13 +10,15 @@
 
 #import "QuartzCore/CAMetalLayer.h"
 #import "Metal/MTLDevice.h"
+#import <MetalKit/MTKView.h>
 #import "Renderer.hpp"
 
-@interface RendererAdapter : NSObject
+@interface RendererAdapter : NSObject<MTKViewDelegate>
 {
     Barrel::Renderer* p_Renderer;
 }
 -(void)draw:(id <CAMetalDrawable>) drawable device: (id <MTLDevice>) device;
+-(nonnull instancetype) initWithMTKView: (MTKView*) pView;
 @end
 
 #endif /* RendererAdapter_h */

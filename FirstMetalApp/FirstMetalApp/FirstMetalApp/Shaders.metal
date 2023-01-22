@@ -9,9 +9,16 @@
 using namespace metal;
 
 /* Vertex Shader */
-[[vertex]] float4 vertexShader(const constant packed_float3* triangleVertices [[buffer(5)]], const ushort vertexIndex [[vertex_id]])
+[[vertex]] float4 vertexShader(
+                               const constant packed_float3* triangleVertices [[buffer(5)]],
+                               const constant float* timer [[buffer(6)]],
+                               const ushort vertexIndex [[vertex_id]])
 {
-    return float4(triangleVertices[vertexIndex],1.0f);
+    const float valX = triangleVertices[vertexIndex].x;
+    const float valY = triangleVertices[vertexIndex].y + sin(*timer);
+    const float valZ = triangleVertices[vertexIndex].z;
+    return float4(valX,valY,valZ,1.0f);
+//    return float4(triangleVertices[vertexIndex],1.0f);
 }
 
 /* Fragment Shader */
