@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		536704AB297C04670041432C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 536704AA297C04670041432C /* main.cpp */; };
+		536704B5297C052B0041432C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536704B4297C052B0041432C /* OpenGL.framework */; };
+		536704BA297C07610041432C /* libimgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536704B6297C05E80041432C /* libimgui.a */; };
+		536704BB297C07CA0041432C /* libglad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536704B8297C06120041432C /* libglad.a */; };
+		536704D3297C0DE30041432C /* implot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 536704C7297C0DE30041432C /* implot.cpp */; };
+		536704D4297C0DE30041432C /* implot_items.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 536704C8297C0DE30041432C /* implot_items.cpp */; };
+		536704D7297C0DE30041432C /* implot_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 536704D1297C0DE30041432C /* implot_internal.h */; };
+		536704D8297C0DE30041432C /* implot.h in Headers */ = {isa = PBXBuildFile; fileRef = 536704D2297C0DE30041432C /* implot.h */; };
+		536704D9297C0E7A0041432C /* libimgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536704B6297C05E80041432C /* libimgui.a */; };
+		536704DA297C0EAE0041432C /* libimplot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536704C1297C0DD50041432C /* libimplot.a */; };
+		536704DB297C0F6D0041432C /* implot_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 536704D0297C0DE30041432C /* implot_demo.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		536704A5297C04670041432C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		536704A7297C04670041432C /* LISA_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LISA_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		536704AA297C04670041432C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		536704B4297C052B0041432C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		536704B6297C05E80041432C /* libimgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimgui.a; path = "../../../../Library/Developer/Xcode/DerivedData/Barrel-brkhvzzowpgwbfeptxjynbjudplg/Build/Products/Debug/libimgui.a"; sourceTree = "<group>"; };
+		536704B8297C06120041432C /* libglad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglad.a; path = "../../../../Library/Developer/Xcode/DerivedData/Barrel-brkhvzzowpgwbfeptxjynbjudplg/Build/Products/Debug/libglad.a"; sourceTree = "<group>"; };
+		536704C1297C0DD50041432C /* libimplot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libimplot.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		536704C6297C0DE30041432C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		536704C7297C0DE30041432C /* implot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = implot.cpp; sourceTree = "<group>"; };
+		536704C8297C0DE30041432C /* implot_items.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = implot_items.cpp; sourceTree = "<group>"; };
+		536704C9297C0DE30041432C /* TODO.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		536704CA297C0DE30041432C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		536704CC297C0DE30041432C /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		536704CE297C0DE30041432C /* build.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = build.yml; sourceTree = "<group>"; };
+		536704CF297C0DE30041432C /* example_implot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = example_implot.cpp; sourceTree = "<group>"; };
+		536704D0297C0DE30041432C /* implot_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = implot_demo.cpp; sourceTree = "<group>"; };
+		536704D1297C0DE30041432C /* implot_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = implot_internal.h; sourceTree = "<group>"; };
+		536704D2297C0DE30041432C /* implot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = implot.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		536704A4297C04670041432C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536704DA297C0EAE0041432C /* libimplot.a in Frameworks */,
+				536704BA297C07610041432C /* libimgui.a in Frameworks */,
+				536704BB297C07CA0041432C /* libglad.a in Frameworks */,
+				536704B5297C052B0041432C /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536704BF297C0DD50041432C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536704D9297C0E7A0041432C /* libimgui.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5367049E297C04670041432C = {
+			isa = PBXGroup;
+			children = (
+				536704A9297C04670041432C /* LISA_Algorithm */,
+				536704BC297C0DA60041432C /* vendor */,
+				536704A8297C04670041432C /* Products */,
+				536704B3297C052B0041432C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		536704A8297C04670041432C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536704A7297C04670041432C /* LISA_Algorithm */,
+				536704C1297C0DD50041432C /* libimplot.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536704A9297C04670041432C /* LISA_Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				536704B1297C04E90041432C /* src */,
+			);
+			path = LISA_Algorithm;
+			sourceTree = "<group>";
+		};
+		536704B1297C04E90041432C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				536704AA297C04670041432C /* main.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		536704B3297C052B0041432C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536704B8297C06120041432C /* libglad.a */,
+				536704B6297C05E80041432C /* libimgui.a */,
+				536704B4297C052B0041432C /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		536704BC297C0DA60041432C /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				536704C5297C0DE30041432C /* implot */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		536704C5297C0DE30041432C /* implot */ = {
+			isa = PBXGroup;
+			children = (
+				536704C6297C0DE30041432C /* LICENSE */,
+				536704C7297C0DE30041432C /* implot.cpp */,
+				536704C8297C0DE30041432C /* implot_items.cpp */,
+				536704C9297C0DE30041432C /* TODO.md */,
+				536704CA297C0DE30041432C /* README.md */,
+				536704CB297C0DE30041432C /* .github */,
+				536704D0297C0DE30041432C /* implot_demo.cpp */,
+				536704D1297C0DE30041432C /* implot_internal.h */,
+				536704D2297C0DE30041432C /* implot.h */,
+			);
+			path = implot;
+			sourceTree = "<group>";
+		};
+		536704CB297C0DE30041432C /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				536704CC297C0DE30041432C /* CMakeLists.txt */,
+				536704CD297C0DE30041432C /* workflows */,
+				536704CF297C0DE30041432C /* example_implot.cpp */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		536704CD297C0DE30041432C /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				536704CE297C0DE30041432C /* build.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		536704BD297C0DD50041432C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536704D7297C0DE30041432C /* implot_internal.h in Headers */,
+				536704D8297C0DE30041432C /* implot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		536704A6297C04670041432C /* LISA_Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536704AE297C04670041432C /* Build configuration list for PBXNativeTarget "LISA_Algorithm" */;
+			buildPhases = (
+				536704A3297C04670041432C /* Sources */,
+				536704A4297C04670041432C /* Frameworks */,
+				536704A5297C04670041432C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LISA_Algorithm;
+			productName = LISA_Algorithm;
+			productReference = 536704A7297C04670041432C /* LISA_Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+		536704C0297C0DD50041432C /* implot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536704C2297C0DD50041432C /* Build configuration list for PBXNativeTarget "implot" */;
+			buildPhases = (
+				536704BD297C0DD50041432C /* Headers */,
+				536704BE297C0DD50041432C /* Sources */,
+				536704BF297C0DD50041432C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = implot;
+			productName = implot;
+			productReference = 536704C1297C0DD50041432C /* libimplot.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5367049F297C04670041432C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					536704A6297C04670041432C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					536704C0297C0DD50041432C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 536704A2297C04670041432C /* Build configuration list for PBXProject "LISA_Algorithm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5367049E297C04670041432C;
+			productRefGroup = 536704A8297C04670041432C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				536704A6297C04670041432C /* LISA_Algorithm */,
+				536704C0297C0DD50041432C /* implot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536704A3297C04670041432C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536704AB297C04670041432C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536704BE297C0DD50041432C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536704DB297C0F6D0041432C /* implot_demo.cpp in Sources */,
+				536704D3297C0DE30041432C /* implot.cpp in Sources */,
+				536704D4297C0DE30041432C /* implot_items.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		536704AC297C04670041432C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		536704AD297C04670041432C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		536704AF297C04670041432C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/glfw/3.3.8/include,
+					/Users/jakubnowak/Documents/c/CppGraphics/Barrel/vendor/glad/include,
+					/Users/jakubnowak/Documents/c/CppGraphics/Barrel/vendor/imgui,
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/jakubnowak/Library/Developer/Xcode/DerivedData/Barrel-brkhvzzowpgwbfeptxjynbjudplg/Build/Products/Debug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		536704B0297C04670041432C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/glfw/3.3.8/include,
+					/Users/jakubnowak/Documents/c/CppGraphics/Barrel/vendor/glad/include,
+					/Users/jakubnowak/Documents/c/CppGraphics/Barrel/vendor/imgui,
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/jakubnowak/Library/Developer/Xcode/DerivedData/Barrel-brkhvzzowpgwbfeptxjynbjudplg/Build/Products/Debug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		536704C3297C0DD50041432C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/jakubnowak/Documents/c/CppGraphics/Barrel/vendor/imgui;
+				LIBRARY_SEARCH_PATHS = "/Users/jakubnowak/Library/Developer/Xcode/DerivedData/Barrel-brkhvzzowpgwbfeptxjynbjudplg/Build/Products/Debug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		536704C4297C0DD50041432C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/jakubnowak/Documents/c/CppGraphics/Barrel/vendor/imgui;
+				LIBRARY_SEARCH_PATHS = "/Users/jakubnowak/Library/Developer/Xcode/DerivedData/Barrel-brkhvzzowpgwbfeptxjynbjudplg/Build/Products/Debug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		536704A2297C04670041432C /* Build configuration list for PBXProject "LISA_Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536704AC297C04670041432C /* Debug */,
+				536704AD297C04670041432C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536704AE297C04670041432C /* Build configuration list for PBXNativeTarget "LISA_Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536704AF297C04670041432C /* Debug */,
+				536704B0297C04670041432C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536704C2297C0DD50041432C /* Build configuration list for PBXNativeTarget "implot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536704C3297C0DD50041432C /* Debug */,
+				536704C4297C0DD50041432C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5367049F297C04670041432C /* Project object */;
+}
